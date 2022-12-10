@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#field{
+    background-color: #EEEEEE;
+    padding: 2.5vh;
+    font-size: 2.5vh;
+    border: solid 2px #606060;
+    width: 60vh;
+    align-items: center;
+}
+
+#field:focus{
+    outline: none;
+}
+
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+
+#field::placeholder{
+    color: #606060;
+    opacity: 1;
+}
+
+/* Internet Explorer 10-11 */
+
+#field:-ms-input-placeholder{
+    color: #606060;
+}
+
+/* Microsoft Edge */
+
+#field::-ms-input-placeholder {
+    color: #606060;
+}
+
+#countriy{
+    color: red;
+}
